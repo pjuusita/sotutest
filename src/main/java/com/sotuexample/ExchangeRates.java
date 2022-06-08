@@ -146,12 +146,12 @@ public class ExchangeRates {
 		
 		double amount = Double.parseDouble(amountStr);
 
-		System.out.println("fromRate - " + fromRate);
-		System.out.println("toRate - " + toRate);
-		System.out.println("amount - " + amount);
+		//System.out.println("fromRate - " + fromRate);
+		//System.out.println("toRate - " + toRate);
+		//System.out.println("amount - " + amount);
 
 		double result = toRate / fromRate * amount;
-		System.out.println("result - " + result);
+		//System.out.println("result - " + result);
 		return result;
 	}
 	
